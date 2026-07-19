@@ -1,0 +1,14 @@
+{
+  "name": "@sil/imagekid-models",
+  "version": "0.1.0",
+  "description": "Converted Core ML models for ImageKid on-device inference: BiRefNet (background removal), U²-Net (background removal), Real-ESRGAN (upscale).",
+  "private": false,
+  "license": "SEE LICENSE IN README.md",
+  "files": [
+    "models"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/silvandiepen/imagekid-models.git"
+  }
+}
