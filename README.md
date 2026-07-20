@@ -14,8 +14,9 @@ Large weight blobs are stored with **Git LFS** (`git lfs install` before cloning
 | `models/BiRefNet.mlpackage` | Background removal (best quality) | 1024×1024 RGB | **MIT** (ZhengPeng7/BiRefNet) | ✅ |
 | `models/U2Net.mlpackage` | Background removal (lighter) | 320×320 RGB | **Apache-2.0** (xuebinqin/U-2-Net) | ✅ |
 | `models/RealESRGAN.mlpackage` | 4× upscale (fixed 256 input) | 256×256 RGB | **BSD-3-Clause** (xinntao/Real-ESRGAN) | ✅ |
+| `models/AuraSR.mlpackage` | 4× upscale (best photo detail) | 64×64 RGB | **Apache-2.0** (fal/AuraSR-v2) | ✅ |
 
-All three are permissively licensed and cleared for commercial redistribution.
+All are permissively licensed and cleared for commercial redistribution.
 Retain each upstream project's copyright notice. See the upstream repositories for
 full license text.
 
@@ -32,4 +33,5 @@ See `tools/coreml-conversion` in the ImageKid repo:
 python convert_birefnet.py  --output ./out/BiRefNet.mlpackage
 python convert_u2net.py     --output ./out/U2Net.mlpackage
 python convert_realesrgan.py --output ./out/RealESRGAN.mlpackage --fixed-size 256
+python convert_aurasr.py     --output ./out/AuraSR.mlpackage
 ```
