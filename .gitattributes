@@ -1,2 +1,4 @@
 # Core ML weight blobs exceed GitHub's 100 MB file limit — store via Git LFS.
 *.bin filter=lfs diff=lfs merge=lfs -text
+# Raw PyTorch checkpoints from silvandiepen/imagekid-training.
+*.pth filter=lfs diff=lfs merge=lfs -text
