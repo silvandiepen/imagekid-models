@@ -18,5 +18,5 @@ logos category specifically.
 The icon-generation LM is not here: at ~3GB it belongs in a Release or R2
 rather than LFS, where every clone would spend bandwidth quota.
 
-Source commit: `3d8fb52dc8e209fec92dfccba3213f3be6764c12`
-Published: 2026-07-26 22:28:10 UTC
+Source commit: `8c33c3947b5c1edffd7e6a3ce4c380b2c293c13a`
+Published: 2026-07-27 02:28:31 UTC
