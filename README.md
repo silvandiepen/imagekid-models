@@ -7,6 +7,12 @@ repo's `tools/coreml-conversion` — this repository just versions the built
 
 Large weight blobs are stored with **Git LFS** (`git lfs install` before cloning).
 
+> **Custom-trained models: do not use.** Five models were trained in July 2026
+> to replace the off-the-shelf ones below. All five failed verification against
+> real FekthorKit inputs. The weights are archived in `pytorch/` for
+> reproducibility only — see [`TRAINING_POSTMORTEM.md`](TRAINING_POSTMORTEM.md)
+> for what was built, why it failed, and what would need to change.
+
 ## Models
 
 | File | Purpose | Input | License | Commercial use |
